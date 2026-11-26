@@ -1,0 +1,55 @@
+{
+ "id": "inv008",
+ "format": "scan",
+ "template": 5,
+ "numfmt": "comma_dot",
+ "datefmt": "long",
+ "tags": [
+  "unknown_supplier"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Gemsbok Bolt Hardware (Pty) Ltd",
+  "supplier_vat_number": "4419392634",
+  "invoice_number": "TI45104",
+  "invoice_date": "2026-10-07",
+  "po_number": null,
+  "lines": [
+   {
+    "description": "LED panel light",
+    "qty": 1,
+    "unit_price": 465.0,
+    "line_total": 465.0
+   },
+   {
+    "description": "Cable, 100m roll",
+    "qty": 1,
+    "unit_price": 1290.0,
+    "line_total": 1290.0
+   },
+   {
+    "description": "Distribution board inspection",
+    "qty": 1,
+    "unit_price": 1850.0,
+    "line_total": 1850.0
+   },
+   {
+    "description": "Electrician, per hour",
+    "qty": 7,
+    "unit_price": 590.0,
+    "line_total": 4130.0
+   }
+  ],
+  "subtotal": 7735.0,
+  "vat_amount": 1160.25,
+  "total": 8895.25,
+  "bank_name": "Ubuntu Savings Bank",
+  "bank_account_number": "1294548851",
+  "branch_code": "910497"
+ },
+ "expected_exceptions": [
+  "no_purchase_order",
+  "unknown_supplier"
+ ],
+ "expected_route": "person"
+}

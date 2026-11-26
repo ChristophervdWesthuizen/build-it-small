@@ -1,0 +1,32 @@
+{
+ "id": "inv023",
+ "format": "pdf",
+ "template": 5,
+ "numfmt": "comma_dot",
+ "datefmt": "long",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Marula Stack Software (Pty) Ltd",
+  "supplier_vat_number": "4572789562",
+  "invoice_number": "INV59144",
+  "invoice_date": "2026-10-11",
+  "po_number": "PO-2026-1022",
+  "lines": [
+   {
+    "description": "Backup service, monthly",
+    "qty": 3,
+    "unit_price": 1100.0,
+    "line_total": 3300.0
+   }
+  ],
+  "subtotal": 3300.0,
+  "vat_amount": 495.0,
+  "total": 3795.0,
+  "bank_name": "Cape Commerce Bank",
+  "bank_account_number": "261800989",
+  "branch_code": "675101"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

@@ -1,0 +1,32 @@
+{
+ "id": "inv102",
+ "format": "scan",
+ "template": 4,
+ "numfmt": "space_dot",
+ "datefmt": "short",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Fynbos Ink Print and Signage",
+  "supplier_vat_number": "4407275686",
+  "invoice_number": "IN96797",
+  "invoice_date": "2026-11-04",
+  "po_number": "PO-2026-1101",
+  "lines": [
+   {
+    "description": "Vehicle decal",
+    "qty": 1,
+    "unit_price": 2480.0,
+    "line_total": 2480.0
+   }
+  ],
+  "subtotal": 2480.0,
+  "vat_amount": 372.0,
+  "total": 2852.0,
+  "bank_name": "Ubuntu Savings Bank",
+  "bank_account_number": "699085262",
+  "branch_code": "573063"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

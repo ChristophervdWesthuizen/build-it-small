@@ -1,0 +1,60 @@
+{
+ "id": "inv148",
+ "format": "photo",
+ "template": 2,
+ "numfmt": "comma_dot",
+ "datefmt": "iso",
+ "tags": [
+  "bank_changed"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Marula Stack Software (Pty) Ltd",
+  "supplier_vat_number": "4572789562",
+  "invoice_number": "74598",
+  "invoice_date": "2026-10-26",
+  "po_number": "PO-2026-1147",
+  "lines": [
+   {
+    "description": "Callout fee",
+    "qty": 1,
+    "unit_price": 650.0,
+    "line_total": 650.0
+   },
+   {
+    "description": "Network switch, 24 port",
+    "qty": 1,
+    "unit_price": 3899.0,
+    "line_total": 3899.0
+   },
+   {
+    "description": "Laptop support, monthly",
+    "qty": 1,
+    "unit_price": 4200.0,
+    "line_total": 4200.0
+   },
+   {
+    "description": "Microsoft 365 licence",
+    "qty": 50,
+    "unit_price": 285.0,
+    "line_total": 14250.0
+   },
+   {
+    "description": "Backup service, monthly",
+    "qty": 1,
+    "unit_price": 1100.0,
+    "line_total": 1100.0
+   }
+  ],
+  "subtotal": 24099.0,
+  "vat_amount": 3614.85,
+  "total": 27713.85,
+  "bank_name": "Protea Bank",
+  "bank_account_number": "258384023",
+  "branch_code": "437545"
+ },
+ "expected_exceptions": [
+  "bank_details_changed"
+ ],
+ "expected_route": "person"
+}

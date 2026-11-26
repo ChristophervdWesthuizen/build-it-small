@@ -1,0 +1,36 @@
+{
+ "id": "inv035",
+ "format": "pdf",
+ "template": 2,
+ "numfmt": "space_comma",
+ "datefmt": "iso",
+ "tags": [
+  "credit_note"
+ ],
+ "printed": {
+  "doc_type": "credit_note",
+  "supplier_name": "Bluegum and Pepper Catering (Pty) Ltd",
+  "supplier_vat_number": "4699761680",
+  "invoice_number": "15998",
+  "invoice_date": "2026-11-18",
+  "po_number": "PO-2026-1034",
+  "lines": [
+   {
+    "description": "Coffee and tea service",
+    "qty": 2,
+    "unit_price": 640.0,
+    "line_total": 1280.0
+   }
+  ],
+  "subtotal": 1280.0,
+  "vat_amount": 192.0,
+  "total": 1472.0,
+  "bank_name": "Cape Commerce Bank",
+  "bank_account_number": "90838816497",
+  "branch_code": "221606"
+ },
+ "expected_exceptions": [
+  "credit_note"
+ ],
+ "expected_route": "person"
+}

@@ -1,0 +1,49 @@
+{
+ "id": "inv180",
+ "format": "pdf",
+ "template": 1,
+ "numfmt": "space_comma",
+ "datefmt": "short",
+ "tags": [
+  "unknown_supplier"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Nama Bloom Florists",
+  "supplier_vat_number": "4679557984",
+  "invoice_number": "TI97410",
+  "invoice_date": "2026-11-11",
+  "po_number": null,
+  "lines": [
+   {
+    "description": "Geyser replacement 150L",
+    "qty": 2,
+    "unit_price": 7900.0,
+    "line_total": 15800.0
+   },
+   {
+    "description": "Plumber, per hour",
+    "qty": 5,
+    "unit_price": 560.0,
+    "line_total": 2800.0
+   },
+   {
+    "description": "Aircon service",
+    "qty": 2,
+    "unit_price": 1380.0,
+    "line_total": 2760.0
+   }
+  ],
+  "subtotal": 21360.0,
+  "vat_amount": 3204.0,
+  "total": 24564.0,
+  "bank_name": "Highveld Mutual Bank",
+  "bank_account_number": "2882857300",
+  "branch_code": "458170"
+ },
+ "expected_exceptions": [
+  "no_purchase_order",
+  "unknown_supplier"
+ ],
+ "expected_route": "person"
+}

@@ -1,0 +1,54 @@
+{
+ "id": "inv034",
+ "format": "pdf",
+ "template": 3,
+ "numfmt": "comma_dot",
+ "datefmt": "dmy_slash",
+ "tags": [
+  "bank_changed"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Waterberg Volt Electrical CC",
+  "supplier_vat_number": "4900480728",
+  "invoice_number": "IN1711",
+  "invoice_date": "2026-11-14",
+  "po_number": "PO-2026-1033",
+  "lines": [
+   {
+    "description": "Distribution board inspection",
+    "qty": 3,
+    "unit_price": 1850.0,
+    "line_total": 5550.0
+   },
+   {
+    "description": "Cable, 100m roll",
+    "qty": 3,
+    "unit_price": 1290.0,
+    "line_total": 3870.0
+   },
+   {
+    "description": "LED panel light",
+    "qty": 6,
+    "unit_price": 465.0,
+    "line_total": 2790.0
+   },
+   {
+    "description": "Electrician, per hour",
+    "qty": 4,
+    "unit_price": 590.0,
+    "line_total": 2360.0
+   }
+  ],
+  "subtotal": 14570.0,
+  "vat_amount": 2185.5,
+  "total": 16755.5,
+  "bank_name": "Protea Bank",
+  "bank_account_number": "90436268868",
+  "branch_code": "316819"
+ },
+ "expected_exceptions": [
+  "bank_details_changed"
+ ],
+ "expected_route": "person"
+}

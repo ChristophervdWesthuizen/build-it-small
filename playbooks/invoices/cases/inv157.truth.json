@@ -1,0 +1,38 @@
+{
+ "id": "inv157",
+ "format": "pdf",
+ "template": 1,
+ "numfmt": "space_dot",
+ "datefmt": "dmy_slash",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Marula Stack Software (Pty) Ltd",
+  "supplier_vat_number": "4572789562",
+  "invoice_number": "TI11214",
+  "invoice_date": "2026-11-19",
+  "po_number": "PO-2026-1156",
+  "lines": [
+   {
+    "description": "Microsoft 365 licence",
+    "qty": 4,
+    "unit_price": 285.0,
+    "line_total": 1140.0
+   },
+   {
+    "description": "Network switch, 24 port",
+    "qty": 1,
+    "unit_price": 3899.0,
+    "line_total": 3899.0
+   }
+  ],
+  "subtotal": 5039.0,
+  "vat_amount": 755.85,
+  "total": 5794.85,
+  "bank_name": "Cape Commerce Bank",
+  "bank_account_number": "261800989",
+  "branch_code": "675101"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

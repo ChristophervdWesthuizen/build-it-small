@@ -1,0 +1,44 @@
+{
+ "id": "inv046",
+ "format": "pdf",
+ "template": 6,
+ "numfmt": "comma_dot",
+ "datefmt": "short",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Fynbos Ink Print and Signage",
+  "supplier_vat_number": "4407275686",
+  "invoice_number": "2538",
+  "invoice_date": "2026-10-11",
+  "po_number": "PO-2026-1045",
+  "lines": [
+   {
+    "description": "Business cards, 500",
+    "qty": 4,
+    "unit_price": 420.0,
+    "line_total": 1680.0
+   },
+   {
+    "description": "Pull up banner",
+    "qty": 2,
+    "unit_price": 1150.0,
+    "line_total": 2300.0
+   },
+   {
+    "description": "A1 poster print",
+    "qty": 24,
+    "unit_price": 260.0,
+    "line_total": 6240.0
+   }
+  ],
+  "subtotal": 10220.0,
+  "vat_amount": 1533.0,
+  "total": 11753.0,
+  "bank_name": "Ubuntu Savings Bank",
+  "bank_account_number": "699085262",
+  "branch_code": "573063"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

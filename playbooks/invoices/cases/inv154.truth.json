@@ -1,0 +1,42 @@
+{
+ "id": "inv154",
+ "format": "pdf",
+ "template": 5,
+ "numfmt": "space_dot",
+ "datefmt": "dmy_slash",
+ "tags": [
+  "bank_changed"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Baobab Fresh Hygiene Supplies",
+  "supplier_vat_number": "4221128730",
+  "invoice_number": "IN57343",
+  "invoice_date": "2026-11-15",
+  "po_number": "PO-2026-1153",
+  "lines": [
+   {
+    "description": "Monthly office cleaning",
+    "qty": 1,
+    "unit_price": 8450.0,
+    "line_total": 8450.0
+   },
+   {
+    "description": "Hand soap refill 5L",
+    "qty": 12,
+    "unit_price": 189.0,
+    "line_total": 2268.0
+   }
+  ],
+  "subtotal": 10718.0,
+  "vat_amount": 1607.7,
+  "total": 12325.7,
+  "bank_name": "Protea Bank",
+  "bank_account_number": "56210757767",
+  "branch_code": "362799"
+ },
+ "expected_exceptions": [
+  "bank_details_changed"
+ ],
+ "expected_route": "person"
+}

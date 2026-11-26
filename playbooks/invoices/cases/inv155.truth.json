@@ -1,0 +1,60 @@
+{
+ "id": "inv155",
+ "format": "pdf",
+ "template": 1,
+ "numfmt": "space_dot",
+ "datefmt": "short",
+ "tags": [
+  "math_error"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Protea Paperworks Stationers",
+  "supplier_vat_number": "4743859293",
+  "invoice_number": "INV82369",
+  "invoice_date": "2026-10-10",
+  "po_number": "PO-2026-1154",
+  "lines": [
+   {
+    "description": "Ballpoint pens, box of 50",
+    "qty": 12,
+    "unit_price": 145.5,
+    "line_total": 1746.0
+   },
+   {
+    "description": "Toner cartridge, black",
+    "qty": 1,
+    "unit_price": 1249.0,
+    "line_total": 1249.0
+   },
+   {
+    "description": "Desk organiser",
+    "qty": 1,
+    "unit_price": 219.0,
+    "line_total": 219.0
+   },
+   {
+    "description": "A4 copy paper, box of 5 reams",
+    "qty": 20,
+    "unit_price": 389.0,
+    "line_total": 7780.0
+   },
+   {
+    "description": "Lever arch files",
+    "qty": 12,
+    "unit_price": 38.9,
+    "line_total": 466.8
+   }
+  ],
+  "subtotal": 11460.8,
+  "vat_amount": 1719.12,
+  "total": 13169.92,
+  "bank_name": "Ubuntu Savings Bank",
+  "bank_account_number": "847625936",
+  "branch_code": "995823"
+ },
+ "expected_exceptions": [
+  "arithmetic_error"
+ ],
+ "expected_route": "person"
+}

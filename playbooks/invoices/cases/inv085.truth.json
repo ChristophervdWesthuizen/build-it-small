@@ -1,0 +1,32 @@
+{
+ "id": "inv085",
+ "format": "pdf",
+ "template": 2,
+ "numfmt": "space_dot",
+ "datefmt": "short",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Agulhas Pipe Plumbing CC",
+  "supplier_vat_number": "4025856575",
+  "invoice_number": "INV-18002",
+  "invoice_date": "2026-10-12",
+  "po_number": "PO-2026-1084",
+  "lines": [
+   {
+    "description": "Garden maintenance, monthly",
+    "qty": 3,
+    "unit_price": 3200.0,
+    "line_total": 9600.0
+   }
+  ],
+  "subtotal": 9600.0,
+  "vat_amount": 1440.0,
+  "total": 11040.0,
+  "bank_name": "Ubuntu Savings Bank",
+  "bank_account_number": "181878855",
+  "branch_code": "907705"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

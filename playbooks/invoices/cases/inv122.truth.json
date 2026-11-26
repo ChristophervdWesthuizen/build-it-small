@@ -1,0 +1,32 @@
+{
+ "id": "inv122",
+ "format": "scan",
+ "template": 5,
+ "numfmt": "space_comma",
+ "datefmt": "iso",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Drakensberg Oak Furniture Co",
+  "supplier_vat_number": "4646340569",
+  "invoice_number": "INV-65573",
+  "invoice_date": "2026-10-09",
+  "po_number": "PO-2026-1121",
+  "lines": [
+   {
+    "description": "Desk, 1600mm",
+    "qty": 1,
+    "unit_price": 4100.0,
+    "line_total": 4100.0
+   }
+  ],
+  "subtotal": 4100.0,
+  "vat_amount": 615.0,
+  "total": 4715.0,
+  "bank_name": "Cape Commerce Bank",
+  "bank_account_number": "148877591",
+  "branch_code": "502779"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

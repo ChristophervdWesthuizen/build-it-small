@@ -1,0 +1,36 @@
+{
+ "id": "inv176",
+ "format": "pdf",
+ "template": 3,
+ "numfmt": "space_comma",
+ "datefmt": "long",
+ "tags": [
+  "no_po"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Drakensberg Oak Furniture Co",
+  "supplier_vat_number": "4646340569",
+  "invoice_number": "INV-77597",
+  "invoice_date": "2026-10-30",
+  "po_number": null,
+  "lines": [
+   {
+    "description": "Filing cabinet, 4 drawer",
+    "qty": 3,
+    "unit_price": 2650.0,
+    "line_total": 7950.0
+   }
+  ],
+  "subtotal": 7950.0,
+  "vat_amount": 1192.5,
+  "total": 9142.5,
+  "bank_name": "Cape Commerce Bank",
+  "bank_account_number": "148877591",
+  "branch_code": "502779"
+ },
+ "expected_exceptions": [
+  "no_purchase_order"
+ ],
+ "expected_route": "person"
+}

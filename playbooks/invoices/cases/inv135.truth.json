@@ -1,0 +1,48 @@
+{
+ "id": "inv135",
+ "format": "pdf",
+ "template": 1,
+ "numfmt": "space_dot",
+ "datefmt": "iso",
+ "tags": [
+  "credit_note"
+ ],
+ "printed": {
+  "doc_type": "credit_note",
+  "supplier_name": "Mopane Line Logistics (Pty) Ltd",
+  "supplier_vat_number": "4112490009",
+  "invoice_number": "3924",
+  "invoice_date": "2026-10-31",
+  "po_number": "PO-2026-1134",
+  "lines": [
+   {
+    "description": "Same day delivery, Gauteng",
+    "qty": 6,
+    "unit_price": 380.0,
+    "line_total": 2280.0
+   },
+   {
+    "description": "Overnight courier, national",
+    "qty": 24,
+    "unit_price": 245.0,
+    "line_total": 5880.0
+   },
+   {
+    "description": "Pallet transport, per pallet",
+    "qty": 1,
+    "unit_price": 1650.0,
+    "line_total": 1650.0
+   }
+  ],
+  "subtotal": 9810.0,
+  "vat_amount": 1471.5,
+  "total": 11281.5,
+  "bank_name": "Highveld Mutual Bank",
+  "bank_account_number": "02428382177",
+  "branch_code": "375109"
+ },
+ "expected_exceptions": [
+  "credit_note"
+ ],
+ "expected_route": "person"
+}

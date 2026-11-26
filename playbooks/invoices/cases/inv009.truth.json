@@ -1,0 +1,60 @@
+{
+ "id": "inv009",
+ "format": "pdf",
+ "template": 3,
+ "numfmt": "space_comma",
+ "datefmt": "long",
+ "tags": [
+  "price_above_po"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Marula Stack Software (Pty) Ltd",
+  "supplier_vat_number": "4572789562",
+  "invoice_number": "IN66557",
+  "invoice_date": "2026-11-03",
+  "po_number": "PO-2026-1008",
+  "lines": [
+   {
+    "description": "Microsoft 365 licence",
+    "qty": 10,
+    "unit_price": 285.0,
+    "line_total": 2850.0
+   },
+   {
+    "description": "Network switch, 24 port",
+    "qty": 2,
+    "unit_price": 3899.0,
+    "line_total": 7798.0
+   },
+   {
+    "description": "Backup service, monthly",
+    "qty": 1,
+    "unit_price": 1263.84,
+    "line_total": 1263.84
+   },
+   {
+    "description": "Laptop support, monthly",
+    "qty": 3,
+    "unit_price": 4200.0,
+    "line_total": 12600.0
+   },
+   {
+    "description": "Callout fee",
+    "qty": 1,
+    "unit_price": 650.0,
+    "line_total": 650.0
+   }
+  ],
+  "subtotal": 25161.84,
+  "vat_amount": 3774.28,
+  "total": 28936.12,
+  "bank_name": "Cape Commerce Bank",
+  "bank_account_number": "261800989",
+  "branch_code": "675101"
+ },
+ "expected_exceptions": [
+  "price_above_po"
+ ],
+ "expected_route": "person"
+}

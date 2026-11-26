@@ -1,0 +1,9 @@
+{
+  "name": "build-it-small",
+  "private": true,
+  "type": "module",
+  "description": "Renders the practice invoices for Build It Small, playbook 1.",
+  "devDependencies": {
+    "playwright": "1.64.0"
+  }
+}

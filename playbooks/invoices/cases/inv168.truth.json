@@ -1,0 +1,32 @@
+{
+ "id": "inv168",
+ "format": "photo",
+ "template": 5,
+ "numfmt": "comma_dot",
+ "datefmt": "iso",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Zebra Stripe Signs and Banners",
+  "supplier_vat_number": "4896698800",
+  "invoice_number": "INV-23738",
+  "invoice_date": "2026-10-10",
+  "po_number": "PO-2026-1167",
+  "lines": [
+   {
+    "description": "A1 poster print",
+    "qty": 3,
+    "unit_price": 260.0,
+    "line_total": 780.0
+   }
+  ],
+  "subtotal": 780.0,
+  "vat_amount": 117.0,
+  "total": 897.0,
+  "bank_name": "Protea Bank",
+  "bank_account_number": "4047573480",
+  "branch_code": "342474"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

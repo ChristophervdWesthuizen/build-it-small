@@ -1,0 +1,32 @@
+{
+ "id": "inv152",
+ "format": "pdf",
+ "template": 3,
+ "numfmt": "comma_dot",
+ "datefmt": "iso",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Cederberg Compass Consulting",
+  "supplier_vat_number": "4970483265",
+  "invoice_number": "IN4423",
+  "invoice_date": "2026-10-10",
+  "po_number": "PO-2026-1151",
+  "lines": [
+   {
+    "description": "Workshop facilitation, day",
+    "qty": 1,
+    "unit_price": 12500.0,
+    "line_total": 12500.0
+   }
+  ],
+  "subtotal": 12500.0,
+  "vat_amount": 1875.0,
+  "total": 14375.0,
+  "bank_name": "Highveld Mutual Bank",
+  "bank_account_number": "618989885",
+  "branch_code": "211361"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

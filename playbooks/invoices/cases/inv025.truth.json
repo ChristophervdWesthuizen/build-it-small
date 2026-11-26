@@ -1,0 +1,44 @@
+{
+ "id": "inv025",
+ "format": "pdf",
+ "template": 2,
+ "numfmt": "comma_dot",
+ "datefmt": "long",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Drakensberg Oak Furniture Co",
+  "supplier_vat_number": "4646340569",
+  "invoice_number": "INV-81172",
+  "invoice_date": "2026-10-16",
+  "po_number": "PO-2026-1024",
+  "lines": [
+   {
+    "description": "Filing cabinet, 4 drawer",
+    "qty": 1,
+    "unit_price": 2650.0,
+    "line_total": 2650.0
+   },
+   {
+    "description": "Desk, 1600mm",
+    "qty": 1,
+    "unit_price": 4100.0,
+    "line_total": 4100.0
+   },
+   {
+    "description": "Office chair, ergonomic",
+    "qty": 1,
+    "unit_price": 3450.0,
+    "line_total": 3450.0
+   }
+  ],
+  "subtotal": 10200.0,
+  "vat_amount": 1530.0,
+  "total": 11730.0,
+  "bank_name": "Cape Commerce Bank",
+  "bank_account_number": "148877591",
+  "branch_code": "502779"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

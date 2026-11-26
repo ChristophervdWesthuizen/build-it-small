@@ -1,0 +1,38 @@
+{
+ "id": "inv101",
+ "format": "pdf",
+ "template": 4,
+ "numfmt": "space_comma",
+ "datefmt": "short",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Springbok Crate Packaging",
+  "supplier_vat_number": "4304737761",
+  "invoice_number": "TI12739",
+  "invoice_date": "2026-10-12",
+  "po_number": "PO-2026-1100",
+  "lines": [
+   {
+    "description": "Pallet, wooden",
+    "qty": 1,
+    "unit_price": 165.0,
+    "line_total": 165.0
+   },
+   {
+    "description": "Stretch wrap roll",
+    "qty": 2,
+    "unit_price": 145.0,
+    "line_total": 290.0
+   }
+  ],
+  "subtotal": 455.0,
+  "vat_amount": 68.25,
+  "total": 523.25,
+  "bank_name": "Highveld Mutual Bank",
+  "bank_account_number": "047145891",
+  "branch_code": "583593"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

@@ -1,0 +1,42 @@
+{
+ "id": "inv103",
+ "format": "pdf",
+ "template": 2,
+ "numfmt": "space_comma",
+ "datefmt": "iso",
+ "tags": [
+  "bank_changed"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Springbok Crate Packaging",
+  "supplier_vat_number": "4304737761",
+  "invoice_number": "TI32354",
+  "invoice_date": "2026-10-28",
+  "po_number": "PO-2026-1102",
+  "lines": [
+   {
+    "description": "Packing tape, 48mm",
+    "qty": 6,
+    "unit_price": 24.5,
+    "line_total": 147.0
+   },
+   {
+    "description": "Pallet, wooden",
+    "qty": 20,
+    "unit_price": 165.0,
+    "line_total": 3300.0
+   }
+  ],
+  "subtotal": 3447.0,
+  "vat_amount": 517.05,
+  "total": 3964.05,
+  "bank_name": "Ubuntu Savings Bank",
+  "bank_account_number": "8975038171",
+  "branch_code": "652432"
+ },
+ "expected_exceptions": [
+  "bank_details_changed"
+ ],
+ "expected_route": "person"
+}

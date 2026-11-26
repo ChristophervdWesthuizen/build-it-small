@@ -1,0 +1,42 @@
+{
+ "id": "inv045",
+ "format": "photo",
+ "template": 6,
+ "numfmt": "comma_dot",
+ "datefmt": "iso",
+ "tags": [
+  "duplicate"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Zebra Stripe Signs and Banners",
+  "supplier_vat_number": "4896698800",
+  "invoice_number": "83904",
+  "invoice_date": "2026-10-05",
+  "po_number": "PO-2026-1044",
+  "lines": [
+   {
+    "description": "Pull up banner",
+    "qty": 2,
+    "unit_price": 1150.0,
+    "line_total": 2300.0
+   },
+   {
+    "description": "Vehicle decal",
+    "qty": 2,
+    "unit_price": 2480.0,
+    "line_total": 4960.0
+   }
+  ],
+  "subtotal": 7260.0,
+  "vat_amount": 1089.0,
+  "total": 8349.0,
+  "bank_name": "Protea Bank",
+  "bank_account_number": "4047573480",
+  "branch_code": "342474"
+ },
+ "expected_exceptions": [
+  "duplicate"
+ ],
+ "expected_route": "person"
+}

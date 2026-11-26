@@ -1,0 +1,36 @@
+{
+ "id": "inv100",
+ "format": "pdf",
+ "template": 4,
+ "numfmt": "comma_dot",
+ "datefmt": "long",
+ "tags": [
+  "credit_note"
+ ],
+ "printed": {
+  "doc_type": "credit_note",
+  "supplier_name": "Protea Paperworks Stationers",
+  "supplier_vat_number": "4743859293",
+  "invoice_number": "INV-8924",
+  "invoice_date": "2026-10-03",
+  "po_number": "PO-2026-1099",
+  "lines": [
+   {
+    "description": "Desk organiser",
+    "qty": 1,
+    "unit_price": 219.0,
+    "line_total": 219.0
+   }
+  ],
+  "subtotal": 219.0,
+  "vat_amount": 32.85,
+  "total": 251.85,
+  "bank_name": "Ubuntu Savings Bank",
+  "bank_account_number": "847625936",
+  "branch_code": "995823"
+ },
+ "expected_exceptions": [
+  "credit_note"
+ ],
+ "expected_route": "person"
+}

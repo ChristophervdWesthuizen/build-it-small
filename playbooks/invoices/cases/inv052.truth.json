@@ -1,0 +1,50 @@
+{
+ "id": "inv052",
+ "format": "pdf",
+ "template": 5,
+ "numfmt": "space_dot",
+ "datefmt": "iso",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Lowveld Shield Pest Control",
+  "supplier_vat_number": "4243788695",
+  "invoice_number": "TI20475",
+  "invoice_date": "2026-11-14",
+  "po_number": "PO-2026-1051",
+  "lines": [
+   {
+    "description": "Sanitary bin service",
+    "qty": 1,
+    "unit_price": 95.0,
+    "line_total": 95.0
+   },
+   {
+    "description": "Deep clean, kitchen",
+    "qty": 1,
+    "unit_price": 1750.0,
+    "line_total": 1750.0
+   },
+   {
+    "description": "Window cleaning, external",
+    "qty": 1,
+    "unit_price": 2300.0,
+    "line_total": 2300.0
+   },
+   {
+    "description": "Monthly office cleaning",
+    "qty": 3,
+    "unit_price": 8450.0,
+    "line_total": 25350.0
+   }
+  ],
+  "subtotal": 29495.0,
+  "vat_amount": 4424.25,
+  "total": 33919.25,
+  "bank_name": "Highveld Mutual Bank",
+  "bank_account_number": "54791264207",
+  "branch_code": "278734"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

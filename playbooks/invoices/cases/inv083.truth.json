@@ -1,0 +1,38 @@
+{
+ "id": "inv083",
+ "format": "pdf",
+ "template": 5,
+ "numfmt": "space_dot",
+ "datefmt": "short",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Kalahari Axle Fleet Services",
+  "supplier_vat_number": "4208334721",
+  "invoice_number": "37727",
+  "invoice_date": "2026-10-07",
+  "po_number": "PO-2026-1082",
+  "lines": [
+   {
+    "description": "Tyre, 195/65 R15",
+    "qty": 1,
+    "unit_price": 1240.0,
+    "line_total": 1240.0
+   },
+   {
+    "description": "Wheel alignment",
+    "qty": 1,
+    "unit_price": 450.0,
+    "line_total": 450.0
+   }
+  ],
+  "subtotal": 1690.0,
+  "vat_amount": 253.5,
+  "total": 1943.5,
+  "bank_name": "Protea Bank",
+  "bank_account_number": "178880895",
+  "branch_code": "394747"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

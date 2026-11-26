@@ -1,0 +1,36 @@
+{
+ "id": "inv178",
+ "format": "pdf",
+ "template": 2,
+ "numfmt": "space_comma",
+ "datefmt": "dmy_slash",
+ "tags": [
+  "missing_vat_number"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Klipspringer Express Couriers",
+  "supplier_vat_number": null,
+  "invoice_number": "84103",
+  "invoice_date": "2026-10-08",
+  "po_number": "PO-2026-1177",
+  "lines": [
+   {
+    "description": "Pallet transport, per pallet",
+    "qty": 3,
+    "unit_price": 1650.0,
+    "line_total": 4950.0
+   }
+  ],
+  "subtotal": 4950.0,
+  "vat_amount": 742.5,
+  "total": 5692.5,
+  "bank_name": "Highveld Mutual Bank",
+  "bank_account_number": "0072917147",
+  "branch_code": "542347"
+ },
+ "expected_exceptions": [
+  "missing_vat_number"
+ ],
+ "expected_route": "person"
+}

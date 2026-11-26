@@ -1,0 +1,36 @@
+{
+ "id": "inv048",
+ "format": "pdf",
+ "template": 4,
+ "numfmt": "space_comma",
+ "datefmt": "dmy_slash",
+ "tags": [
+  "bank_changed"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Agulhas Pipe Plumbing CC",
+  "supplier_vat_number": "4025856575",
+  "invoice_number": "TI58305",
+  "invoice_date": "2026-10-14",
+  "po_number": "PO-2026-1047",
+  "lines": [
+   {
+    "description": "Aircon service",
+    "qty": 3,
+    "unit_price": 1380.0,
+    "line_total": 4140.0
+   }
+  ],
+  "subtotal": 4140.0,
+  "vat_amount": 621.0,
+  "total": 4761.0,
+  "bank_name": "Protea Bank",
+  "bank_account_number": "300693394",
+  "branch_code": "489081"
+ },
+ "expected_exceptions": [
+  "bank_details_changed"
+ ],
+ "expected_route": "person"
+}

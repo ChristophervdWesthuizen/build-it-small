@@ -1,0 +1,32 @@
+{
+ "id": "inv060",
+ "format": "pdf",
+ "template": 4,
+ "numfmt": "comma_dot",
+ "datefmt": "short",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Baobab Fresh Hygiene Supplies",
+  "supplier_vat_number": "4221128730",
+  "invoice_number": "IN67172",
+  "invoice_date": "2026-11-15",
+  "po_number": "PO-2026-1059",
+  "lines": [
+   {
+    "description": "Monthly office cleaning",
+    "qty": 2,
+    "unit_price": 8450.0,
+    "line_total": 16900.0
+   }
+  ],
+  "subtotal": 16900.0,
+  "vat_amount": 2535.0,
+  "total": 19435.0,
+  "bank_name": "Ubuntu Savings Bank",
+  "bank_account_number": "15987992679",
+  "branch_code": "802695"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

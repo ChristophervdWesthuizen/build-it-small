@@ -1,0 +1,42 @@
+{
+ "id": "inv143",
+ "format": "pdf",
+ "template": 6,
+ "numfmt": "comma_dot",
+ "datefmt": "dmy_slash",
+ "tags": [
+  "math_error"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Umhlanga Keystone Facilities (Pty) Ltd",
+  "supplier_vat_number": "4795701334",
+  "invoice_number": "IN51164",
+  "invoice_date": "2026-11-08",
+  "po_number": "PO-2026-1142",
+  "lines": [
+   {
+    "description": "Plumber, per hour",
+    "qty": 10,
+    "unit_price": 560.0,
+    "line_total": 5600.0
+   },
+   {
+    "description": "Aircon service",
+    "qty": 1,
+    "unit_price": 1380.0,
+    "line_total": 1380.0
+   }
+  ],
+  "subtotal": 6980.0,
+  "vat_amount": 1047.0,
+  "total": 8127.0,
+  "bank_name": "Ubuntu Savings Bank",
+  "bank_account_number": "912040752",
+  "branch_code": "325718"
+ },
+ "expected_exceptions": [
+  "arithmetic_error"
+ ],
+ "expected_route": "person"
+}

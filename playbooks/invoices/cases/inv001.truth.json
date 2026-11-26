@@ -1,0 +1,32 @@
+{
+ "id": "inv001",
+ "format": "photo",
+ "template": 2,
+ "numfmt": "space_comma",
+ "datefmt": "long",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Springbok Crate Packaging",
+  "supplier_vat_number": "4304737761",
+  "invoice_number": "INV-28687",
+  "invoice_date": "2026-11-07",
+  "po_number": "PO-2026-1000",
+  "lines": [
+   {
+    "description": "Carton, double wall",
+    "qty": 24,
+    "unit_price": 18.4,
+    "line_total": 441.6
+   }
+  ],
+  "subtotal": 441.6,
+  "vat_amount": 66.24,
+  "total": 507.84,
+  "bank_name": "Highveld Mutual Bank",
+  "bank_account_number": "047145891",
+  "branch_code": "583593"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

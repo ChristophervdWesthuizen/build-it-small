@@ -1,0 +1,42 @@
+{
+ "id": "inv071",
+ "format": "pdf",
+ "template": 5,
+ "numfmt": "comma_dot",
+ "datefmt": "dmy_slash",
+ "tags": [
+  "math_error"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Highveld Sparkle Cleaning CC",
+  "supplier_vat_number": "4159648540",
+  "invoice_number": "TI25528",
+  "invoice_date": "2026-10-15",
+  "po_number": "PO-2026-1070",
+  "lines": [
+   {
+    "description": "Monthly office cleaning",
+    "qty": 1,
+    "unit_price": 8450.0,
+    "line_total": 8450.0
+   },
+   {
+    "description": "Deep clean, kitchen",
+    "qty": 1,
+    "unit_price": 1750.0,
+    "line_total": 1750.0
+   }
+  ],
+  "subtotal": 10200.0,
+  "vat_amount": 1530.0,
+  "total": 11720.0,
+  "bank_name": "Highveld Mutual Bank",
+  "bank_account_number": "752223957",
+  "branch_code": "750680"
+ },
+ "expected_exceptions": [
+  "arithmetic_error"
+ ],
+ "expected_route": "person"
+}

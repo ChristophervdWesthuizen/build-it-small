@@ -1,0 +1,32 @@
+{
+ "id": "inv062",
+ "format": "pdf",
+ "template": 4,
+ "numfmt": "comma_dot",
+ "datefmt": "short",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Springbok Crate Packaging",
+  "supplier_vat_number": "4304737761",
+  "invoice_number": "IN43928",
+  "invoice_date": "2026-11-06",
+  "po_number": "PO-2026-1061",
+  "lines": [
+   {
+    "description": "Packing tape, 48mm",
+    "qty": 6,
+    "unit_price": 24.5,
+    "line_total": 147.0
+   }
+  ],
+  "subtotal": 147.0,
+  "vat_amount": 22.05,
+  "total": 169.05,
+  "bank_name": "Highveld Mutual Bank",
+  "bank_account_number": "047145891",
+  "branch_code": "583593"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

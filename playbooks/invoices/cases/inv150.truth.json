@@ -1,0 +1,42 @@
+{
+ "id": "inv150",
+ "format": "scan",
+ "template": 2,
+ "numfmt": "space_dot",
+ "datefmt": "dmy_slash",
+ "tags": [
+  "duplicate"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Sandstone Watch Security Services",
+  "supplier_vat_number": "4400588408",
+  "invoice_number": "INV99943",
+  "invoice_date": "2026-11-19",
+  "po_number": "PO-2026-1149",
+  "lines": [
+   {
+    "description": "Guarding, monthly",
+    "qty": 1,
+    "unit_price": 18500.0,
+    "line_total": 18500.0
+   },
+   {
+    "description": "CCTV maintenance",
+    "qty": 3,
+    "unit_price": 2200.0,
+    "line_total": 6600.0
+   }
+  ],
+  "subtotal": 25100.0,
+  "vat_amount": 3765.0,
+  "total": 28865.0,
+  "bank_name": "Cape Commerce Bank",
+  "bank_account_number": "1415672151",
+  "branch_code": "606689"
+ },
+ "expected_exceptions": [
+  "duplicate"
+ ],
+ "expected_route": "person"
+}

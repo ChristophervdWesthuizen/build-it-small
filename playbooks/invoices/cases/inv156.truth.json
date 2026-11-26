@@ -1,0 +1,44 @@
+{
+ "id": "inv156",
+ "format": "pdf",
+ "template": 1,
+ "numfmt": "comma_dot",
+ "datefmt": "short",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Umhlanga Keystone Facilities (Pty) Ltd",
+  "supplier_vat_number": "4795701334",
+  "invoice_number": "22530",
+  "invoice_date": "2026-10-09",
+  "po_number": "PO-2026-1155",
+  "lines": [
+   {
+    "description": "Aircon service",
+    "qty": 3,
+    "unit_price": 1380.0,
+    "line_total": 4140.0
+   },
+   {
+    "description": "Geyser replacement 150L",
+    "qty": 1,
+    "unit_price": 7900.0,
+    "line_total": 7900.0
+   },
+   {
+    "description": "Plumber, per hour",
+    "qty": 2,
+    "unit_price": 560.0,
+    "line_total": 1120.0
+   }
+  ],
+  "subtotal": 13160.0,
+  "vat_amount": 1974.0,
+  "total": 15134.0,
+  "bank_name": "Ubuntu Savings Bank",
+  "bank_account_number": "912040752",
+  "branch_code": "325718"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

@@ -1,0 +1,38 @@
+{
+ "id": "inv069",
+ "format": "pdf",
+ "template": 4,
+ "numfmt": "space_comma",
+ "datefmt": "long",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Bluegum and Pepper Catering (Pty) Ltd",
+  "supplier_vat_number": "4699761680",
+  "invoice_number": "13318",
+  "invoice_date": "2026-11-01",
+  "po_number": "PO-2026-1068",
+  "lines": [
+   {
+    "description": "Boardroom breakfast",
+    "qty": 1,
+    "unit_price": 1320.0,
+    "line_total": 1320.0
+   },
+   {
+    "description": "Coffee and tea service",
+    "qty": 1,
+    "unit_price": 640.0,
+    "line_total": 640.0
+   }
+  ],
+  "subtotal": 1960.0,
+  "vat_amount": 294.0,
+  "total": 2254.0,
+  "bank_name": "Cape Commerce Bank",
+  "bank_account_number": "90838816497",
+  "branch_code": "221606"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

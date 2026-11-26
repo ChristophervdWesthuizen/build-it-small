@@ -1,0 +1,32 @@
+{
+ "id": "inv191",
+ "format": "photo",
+ "template": 5,
+ "numfmt": "space_dot",
+ "datefmt": "dmy_slash",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Baobab Fresh Hygiene Supplies",
+  "supplier_vat_number": "4221128730",
+  "invoice_number": "28318",
+  "invoice_date": "2026-10-26",
+  "po_number": "PO-2026-1190",
+  "lines": [
+   {
+    "description": "Hand soap refill 5L",
+    "qty": 2,
+    "unit_price": 189.0,
+    "line_total": 378.0
+   }
+  ],
+  "subtotal": 378.0,
+  "vat_amount": 56.7,
+  "total": 434.7,
+  "bank_name": "Ubuntu Savings Bank",
+  "bank_account_number": "15987992679",
+  "branch_code": "802695"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

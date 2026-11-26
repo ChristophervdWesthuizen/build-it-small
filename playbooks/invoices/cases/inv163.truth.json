@@ -1,0 +1,36 @@
+{
+ "id": "inv163",
+ "format": "pdf",
+ "template": 2,
+ "numfmt": "comma_dot",
+ "datefmt": "iso",
+ "tags": [
+  "missing_vat_number"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Marula Stack Software (Pty) Ltd",
+  "supplier_vat_number": null,
+  "invoice_number": "INV-23475",
+  "invoice_date": "2026-11-11",
+  "po_number": "PO-2026-1162",
+  "lines": [
+   {
+    "description": "Laptop support, monthly",
+    "qty": 2,
+    "unit_price": 4200.0,
+    "line_total": 8400.0
+   }
+  ],
+  "subtotal": 8400.0,
+  "vat_amount": 1260.0,
+  "total": 9660.0,
+  "bank_name": "Cape Commerce Bank",
+  "bank_account_number": "261800989",
+  "branch_code": "675101"
+ },
+ "expected_exceptions": [
+  "missing_vat_number"
+ ],
+ "expected_route": "person"
+}

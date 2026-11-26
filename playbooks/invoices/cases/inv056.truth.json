@@ -1,0 +1,44 @@
+{
+ "id": "inv056",
+ "format": "pdf",
+ "template": 2,
+ "numfmt": "space_comma",
+ "datefmt": "short",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Waterberg Volt Electrical CC",
+  "supplier_vat_number": "4900480728",
+  "invoice_number": "INV68561",
+  "invoice_date": "2026-10-08",
+  "po_number": "PO-2026-1055",
+  "lines": [
+   {
+    "description": "LED panel light",
+    "qty": 4,
+    "unit_price": 465.0,
+    "line_total": 1860.0
+   },
+   {
+    "description": "Distribution board inspection",
+    "qty": 2,
+    "unit_price": 1850.0,
+    "line_total": 3700.0
+   },
+   {
+    "description": "Electrician, per hour",
+    "qty": 9,
+    "unit_price": 590.0,
+    "line_total": 5310.0
+   }
+  ],
+  "subtotal": 10870.0,
+  "vat_amount": 1630.5,
+  "total": 12500.5,
+  "bank_name": "Highveld Mutual Bank",
+  "bank_account_number": "1372748382",
+  "branch_code": "414591"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

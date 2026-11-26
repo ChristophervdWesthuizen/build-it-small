@@ -1,0 +1,49 @@
+{
+ "id": "inv068",
+ "format": "pdf",
+ "template": 5,
+ "numfmt": "space_comma",
+ "datefmt": "short",
+ "tags": [
+  "unknown_supplier"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Magaliesberg Mist Water Co",
+  "supplier_vat_number": "4544382175",
+  "invoice_number": "IN85888",
+  "invoice_date": "2026-10-29",
+  "po_number": null,
+  "lines": [
+   {
+    "description": "Boardroom breakfast",
+    "qty": 1,
+    "unit_price": 1320.0,
+    "line_total": 1320.0
+   },
+   {
+    "description": "Coffee and tea service",
+    "qty": 1,
+    "unit_price": 640.0,
+    "line_total": 640.0
+   },
+   {
+    "description": "Bottled water, case of 24",
+    "qty": 50,
+    "unit_price": 132.0,
+    "line_total": 6600.0
+   }
+  ],
+  "subtotal": 8560.0,
+  "vat_amount": 1284.0,
+  "total": 9844.0,
+  "bank_name": "Cape Commerce Bank",
+  "bank_account_number": "757393574",
+  "branch_code": "983011"
+ },
+ "expected_exceptions": [
+  "no_purchase_order",
+  "unknown_supplier"
+ ],
+ "expected_route": "person"
+}

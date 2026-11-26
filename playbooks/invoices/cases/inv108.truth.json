@@ -1,0 +1,44 @@
+{
+ "id": "inv108",
+ "format": "pdf",
+ "template": 1,
+ "numfmt": "space_dot",
+ "datefmt": "iso",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Springbok Crate Packaging",
+  "supplier_vat_number": "4304737761",
+  "invoice_number": "INV-32171",
+  "invoice_date": "2026-10-02",
+  "po_number": "PO-2026-1107",
+  "lines": [
+   {
+    "description": "Packing tape, 48mm",
+    "qty": 12,
+    "unit_price": 24.5,
+    "line_total": 294.0
+   },
+   {
+    "description": "Pallet, wooden",
+    "qty": 3,
+    "unit_price": 165.0,
+    "line_total": 495.0
+   },
+   {
+    "description": "Stretch wrap roll",
+    "qty": 3,
+    "unit_price": 145.0,
+    "line_total": 435.0
+   }
+  ],
+  "subtotal": 1224.0,
+  "vat_amount": 183.6,
+  "total": 1407.6,
+  "bank_name": "Highveld Mutual Bank",
+  "bank_account_number": "047145891",
+  "branch_code": "583593"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

@@ -1,0 +1,32 @@
+{
+ "id": "inv042",
+ "format": "pdf",
+ "template": 3,
+ "numfmt": "space_dot",
+ "datefmt": "iso",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Kalahari Axle Fleet Services",
+  "supplier_vat_number": "4208334721",
+  "invoice_number": "INV-94146",
+  "invoice_date": "2026-10-07",
+  "po_number": "PO-2026-1041",
+  "lines": [
+   {
+    "description": "Vehicle service, minor",
+    "qty": 1,
+    "unit_price": 2950.0,
+    "line_total": 2950.0
+   }
+  ],
+  "subtotal": 2950.0,
+  "vat_amount": 442.5,
+  "total": 3392.5,
+  "bank_name": "Protea Bank",
+  "bank_account_number": "178880895",
+  "branch_code": "394747"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

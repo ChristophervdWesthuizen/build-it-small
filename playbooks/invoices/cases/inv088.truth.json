@@ -1,0 +1,44 @@
+{
+ "id": "inv088",
+ "format": "pdf",
+ "template": 2,
+ "numfmt": "space_dot",
+ "datefmt": "dmy_slash",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Agulhas Pipe Plumbing CC",
+  "supplier_vat_number": "4025856575",
+  "invoice_number": "IN4707",
+  "invoice_date": "2026-10-09",
+  "po_number": "PO-2026-1087",
+  "lines": [
+   {
+    "description": "Aircon service",
+    "qty": 1,
+    "unit_price": 1380.0,
+    "line_total": 1380.0
+   },
+   {
+    "description": "Garden maintenance, monthly",
+    "qty": 1,
+    "unit_price": 3200.0,
+    "line_total": 3200.0
+   },
+   {
+    "description": "Plumber, per hour",
+    "qty": 7,
+    "unit_price": 560.0,
+    "line_total": 3920.0
+   }
+  ],
+  "subtotal": 8500.0,
+  "vat_amount": 1275.0,
+  "total": 9775.0,
+  "bank_name": "Ubuntu Savings Bank",
+  "bank_account_number": "181878855",
+  "branch_code": "907705"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

@@ -1,0 +1,48 @@
+{
+ "id": "inv006",
+ "format": "scan",
+ "template": 1,
+ "numfmt": "space_dot",
+ "datefmt": "dmy_slash",
+ "tags": [
+  "no_po"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Waterberg Volt Electrical CC",
+  "supplier_vat_number": "4900480728",
+  "invoice_number": "IN91014",
+  "invoice_date": "2026-10-31",
+  "po_number": null,
+  "lines": [
+   {
+    "description": "Electrician, per hour",
+    "qty": 12,
+    "unit_price": 590.0,
+    "line_total": 7080.0
+   },
+   {
+    "description": "Cable, 100m roll",
+    "qty": 1,
+    "unit_price": 1290.0,
+    "line_total": 1290.0
+   },
+   {
+    "description": "LED panel light",
+    "qty": 2,
+    "unit_price": 465.0,
+    "line_total": 930.0
+   }
+  ],
+  "subtotal": 9300.0,
+  "vat_amount": 1395.0,
+  "total": 10695.0,
+  "bank_name": "Highveld Mutual Bank",
+  "bank_account_number": "1372748382",
+  "branch_code": "414591"
+ },
+ "expected_exceptions": [
+  "no_purchase_order"
+ ],
+ "expected_route": "person"
+}

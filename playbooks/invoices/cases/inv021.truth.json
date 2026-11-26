@@ -1,0 +1,44 @@
+{
+ "id": "inv021",
+ "format": "scan",
+ "template": 4,
+ "numfmt": "space_dot",
+ "datefmt": "iso",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Two Rivers Byte Solutions",
+  "supplier_vat_number": "4695691444",
+  "invoice_number": "84872",
+  "invoice_date": "2026-10-05",
+  "po_number": "PO-2026-1020",
+  "lines": [
+   {
+    "description": "Microsoft 365 licence",
+    "qty": 50,
+    "unit_price": 285.0,
+    "line_total": 14250.0
+   },
+   {
+    "description": "Laptop support, monthly",
+    "qty": 1,
+    "unit_price": 4200.0,
+    "line_total": 4200.0
+   },
+   {
+    "description": "Backup service, monthly",
+    "qty": 1,
+    "unit_price": 1100.0,
+    "line_total": 1100.0
+   }
+  ],
+  "subtotal": 19550.0,
+  "vat_amount": 2932.5,
+  "total": 22482.5,
+  "bank_name": "Ubuntu Savings Bank",
+  "bank_account_number": "48992353898",
+  "branch_code": "325018"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

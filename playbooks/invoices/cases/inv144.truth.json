@@ -1,0 +1,44 @@
+{
+ "id": "inv144",
+ "format": "pdf",
+ "template": 2,
+ "numfmt": "space_comma",
+ "datefmt": "long",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Karoo Quill Office Supply (Pty) Ltd",
+  "supplier_vat_number": "4709145341",
+  "invoice_number": "IN95716",
+  "invoice_date": "2026-10-23",
+  "po_number": "PO-2026-1143",
+  "lines": [
+   {
+    "description": "Ballpoint pens, box of 50",
+    "qty": 3,
+    "unit_price": 145.5,
+    "line_total": 436.5
+   },
+   {
+    "description": "Lever arch files",
+    "qty": 3,
+    "unit_price": 38.9,
+    "line_total": 116.7
+   },
+   {
+    "description": "A4 copy paper, box of 5 reams",
+    "qty": 10,
+    "unit_price": 389.0,
+    "line_total": 3890.0
+   }
+  ],
+  "subtotal": 4443.2,
+  "vat_amount": 666.48,
+  "total": 5109.68,
+  "bank_name": "Ubuntu Savings Bank",
+  "bank_account_number": "28966553719",
+  "branch_code": "861609"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

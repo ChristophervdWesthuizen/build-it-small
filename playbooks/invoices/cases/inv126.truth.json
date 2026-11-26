@@ -1,0 +1,48 @@
+{
+ "id": "inv126",
+ "format": "pdf",
+ "template": 6,
+ "numfmt": "comma_dot",
+ "datefmt": "short",
+ "tags": [
+  "missing_vat_number"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Kalahari Axle Fleet Services",
+  "supplier_vat_number": null,
+  "invoice_number": "INV-28399",
+  "invoice_date": "2026-10-12",
+  "po_number": "PO-2026-1125",
+  "lines": [
+   {
+    "description": "Vehicle service, minor",
+    "qty": 3,
+    "unit_price": 2950.0,
+    "line_total": 8850.0
+   },
+   {
+    "description": "Wheel alignment",
+    "qty": 1,
+    "unit_price": 450.0,
+    "line_total": 450.0
+   },
+   {
+    "description": "Tyre, 195/65 R15",
+    "qty": 2,
+    "unit_price": 1240.0,
+    "line_total": 2480.0
+   }
+  ],
+  "subtotal": 11780.0,
+  "vat_amount": 1767.0,
+  "total": 13547.0,
+  "bank_name": "Protea Bank",
+  "bank_account_number": "178880895",
+  "branch_code": "394747"
+ },
+ "expected_exceptions": [
+  "missing_vat_number"
+ ],
+ "expected_route": "person"
+}

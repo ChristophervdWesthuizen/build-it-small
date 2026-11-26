@@ -1,0 +1,36 @@
+{
+ "id": "inv185",
+ "format": "scan",
+ "template": 4,
+ "numfmt": "space_dot",
+ "datefmt": "iso",
+ "tags": [
+  "no_po"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Cederberg Compass Consulting",
+  "supplier_vat_number": "4970483265",
+  "invoice_number": "INV51427",
+  "invoice_date": "2026-11-11",
+  "po_number": null,
+  "lines": [
+   {
+    "description": "Consulting, per hour",
+    "qty": 7,
+    "unit_price": 1450.0,
+    "line_total": 10150.0
+   }
+  ],
+  "subtotal": 10150.0,
+  "vat_amount": 1522.5,
+  "total": 11672.5,
+  "bank_name": "Highveld Mutual Bank",
+  "bank_account_number": "618989885",
+  "branch_code": "211361"
+ },
+ "expected_exceptions": [
+  "no_purchase_order"
+ ],
+ "expected_route": "person"
+}

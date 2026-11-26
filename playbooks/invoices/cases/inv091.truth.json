@@ -1,0 +1,36 @@
+{
+ "id": "inv091",
+ "format": "photo",
+ "template": 3,
+ "numfmt": "comma_dot",
+ "datefmt": "long",
+ "tags": [
+  "price_above_po"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Marula Stack Software (Pty) Ltd",
+  "supplier_vat_number": "4572789562",
+  "invoice_number": "INV-89651",
+  "invoice_date": "2026-10-31",
+  "po_number": "PO-2026-1090",
+  "lines": [
+   {
+    "description": "Microsoft 365 licence",
+    "qty": 50,
+    "unit_price": 313.77,
+    "line_total": 15688.5
+   }
+  ],
+  "subtotal": 15688.5,
+  "vat_amount": 2353.28,
+  "total": 18041.78,
+  "bank_name": "Cape Commerce Bank",
+  "bank_account_number": "261800989",
+  "branch_code": "675101"
+ },
+ "expected_exceptions": [
+  "price_above_po"
+ ],
+ "expected_route": "person"
+}

@@ -1,0 +1,38 @@
+{
+ "id": "inv138",
+ "format": "pdf",
+ "template": 3,
+ "numfmt": "comma_dot",
+ "datefmt": "long",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Sandstone Watch Security Services",
+  "supplier_vat_number": "4400588408",
+  "invoice_number": "55410",
+  "invoice_date": "2026-11-08",
+  "po_number": "PO-2026-1137",
+  "lines": [
+   {
+    "description": "Armed response, monthly",
+    "qty": 3,
+    "unit_price": 1450.0,
+    "line_total": 4350.0
+   },
+   {
+    "description": "CCTV maintenance",
+    "qty": 3,
+    "unit_price": 2200.0,
+    "line_total": 6600.0
+   }
+  ],
+  "subtotal": 10950.0,
+  "vat_amount": 1642.5,
+  "total": 12592.5,
+  "bank_name": "Cape Commerce Bank",
+  "bank_account_number": "1415672151",
+  "branch_code": "606689"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

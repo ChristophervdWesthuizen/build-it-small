@@ -1,0 +1,44 @@
+{
+ "id": "inv096",
+ "format": "pdf",
+ "template": 3,
+ "numfmt": "comma_dot",
+ "datefmt": "long",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Lowveld Shield Pest Control",
+  "supplier_vat_number": "4243788695",
+  "invoice_number": "TI61441",
+  "invoice_date": "2026-11-08",
+  "po_number": "PO-2026-1095",
+  "lines": [
+   {
+    "description": "Window cleaning, external",
+    "qty": 2,
+    "unit_price": 2300.0,
+    "line_total": 4600.0
+   },
+   {
+    "description": "Hand soap refill 5L",
+    "qty": 10,
+    "unit_price": 189.0,
+    "line_total": 1890.0
+   },
+   {
+    "description": "Deep clean, kitchen",
+    "qty": 2,
+    "unit_price": 1750.0,
+    "line_total": 3500.0
+   }
+  ],
+  "subtotal": 9990.0,
+  "vat_amount": 1498.5,
+  "total": 11488.5,
+  "bank_name": "Highveld Mutual Bank",
+  "bank_account_number": "54791264207",
+  "branch_code": "278734"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

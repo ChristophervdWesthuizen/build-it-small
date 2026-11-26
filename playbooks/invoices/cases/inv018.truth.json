@@ -1,0 +1,54 @@
+{
+ "id": "inv018",
+ "format": "pdf",
+ "template": 2,
+ "numfmt": "space_dot",
+ "datefmt": "dmy_slash",
+ "tags": [
+  "math_error"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Highveld Sparkle Cleaning CC",
+  "supplier_vat_number": "4159648540",
+  "invoice_number": "IN65446",
+  "invoice_date": "2026-11-08",
+  "po_number": "PO-2026-1017",
+  "lines": [
+   {
+    "description": "Window cleaning, external",
+    "qty": 1,
+    "unit_price": 2300.0,
+    "line_total": 2300.0
+   },
+   {
+    "description": "Deep clean, kitchen",
+    "qty": 2,
+    "unit_price": 1750.0,
+    "line_total": 3500.0
+   },
+   {
+    "description": "Monthly office cleaning",
+    "qty": 2,
+    "unit_price": 8450.0,
+    "line_total": 16900.0
+   },
+   {
+    "description": "Hand soap refill 5L",
+    "qty": 4,
+    "unit_price": 189.0,
+    "line_total": 756.0
+   }
+  ],
+  "subtotal": 23456.0,
+  "vat_amount": 3518.4,
+  "total": 27074.4,
+  "bank_name": "Highveld Mutual Bank",
+  "bank_account_number": "752223957",
+  "branch_code": "750680"
+ },
+ "expected_exceptions": [
+  "arithmetic_error"
+ ],
+ "expected_route": "person"
+}

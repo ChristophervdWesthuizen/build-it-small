@@ -1,0 +1,38 @@
+{
+ "id": "inv166",
+ "format": "pdf",
+ "template": 2,
+ "numfmt": "comma_dot",
+ "datefmt": "dmy_slash",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Baobab Fresh Hygiene Supplies",
+  "supplier_vat_number": "4221128730",
+  "invoice_number": "INV11714",
+  "invoice_date": "2026-11-06",
+  "po_number": "PO-2026-1165",
+  "lines": [
+   {
+    "description": "Window cleaning, external",
+    "qty": 3,
+    "unit_price": 2300.0,
+    "line_total": 6900.0
+   },
+   {
+    "description": "Hand soap refill 5L",
+    "qty": 6,
+    "unit_price": 189.0,
+    "line_total": 1134.0
+   }
+  ],
+  "subtotal": 8034.0,
+  "vat_amount": 1205.1,
+  "total": 9239.1,
+  "bank_name": "Ubuntu Savings Bank",
+  "bank_account_number": "15987992679",
+  "branch_code": "802695"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

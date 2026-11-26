@@ -1,0 +1,38 @@
+{
+ "id": "inv186",
+ "format": "pdf",
+ "template": 3,
+ "numfmt": "space_comma",
+ "datefmt": "short",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Fynbos Ink Print and Signage",
+  "supplier_vat_number": "4407275686",
+  "invoice_number": "6347",
+  "invoice_date": "2026-10-07",
+  "po_number": "PO-2026-1185",
+  "lines": [
+   {
+    "description": "A1 poster print",
+    "qty": 5,
+    "unit_price": 260.0,
+    "line_total": 1300.0
+   },
+   {
+    "description": "Pull up banner",
+    "qty": 1,
+    "unit_price": 1150.0,
+    "line_total": 1150.0
+   }
+  ],
+  "subtotal": 2450.0,
+  "vat_amount": 367.5,
+  "total": 2817.5,
+  "bank_name": "Ubuntu Savings Bank",
+  "bank_account_number": "699085262",
+  "branch_code": "573063"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

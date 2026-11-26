@@ -1,0 +1,54 @@
+{
+ "id": "inv118",
+ "format": "pdf",
+ "template": 2,
+ "numfmt": "comma_dot",
+ "datefmt": "dmy_slash",
+ "tags": [
+  "credit_note"
+ ],
+ "printed": {
+  "doc_type": "credit_note",
+  "supplier_name": "Klipspringer Express Couriers",
+  "supplier_vat_number": "4305575262",
+  "invoice_number": "76747",
+  "invoice_date": "2026-10-29",
+  "po_number": "PO-2026-1117",
+  "lines": [
+   {
+    "description": "Same day delivery, Gauteng",
+    "qty": 1,
+    "unit_price": 380.0,
+    "line_total": 380.0
+   },
+   {
+    "description": "Fuel surcharge",
+    "qty": 50,
+    "unit_price": 120.0,
+    "line_total": 6000.0
+   },
+   {
+    "description": "Overnight courier, national",
+    "qty": 1,
+    "unit_price": 245.0,
+    "line_total": 245.0
+   },
+   {
+    "description": "Pallet transport, per pallet",
+    "qty": 1,
+    "unit_price": 1650.0,
+    "line_total": 1650.0
+   }
+  ],
+  "subtotal": 8275.0,
+  "vat_amount": 1241.25,
+  "total": 9516.25,
+  "bank_name": "Highveld Mutual Bank",
+  "bank_account_number": "0072917147",
+  "branch_code": "542347"
+ },
+ "expected_exceptions": [
+  "credit_note"
+ ],
+ "expected_route": "person"
+}

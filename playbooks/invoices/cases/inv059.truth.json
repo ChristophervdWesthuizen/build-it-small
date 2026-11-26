@@ -1,0 +1,49 @@
+{
+ "id": "inv059",
+ "format": "pdf",
+ "template": 3,
+ "numfmt": "space_dot",
+ "datefmt": "short",
+ "tags": [
+  "unknown_supplier"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Tugela Thread Uniforms",
+  "supplier_vat_number": "4239900230",
+  "invoice_number": "INV-75686",
+  "invoice_date": "2026-11-15",
+  "po_number": null,
+  "lines": [
+   {
+    "description": "Toner cartridge, black",
+    "qty": 3,
+    "unit_price": 1249.0,
+    "line_total": 3747.0
+   },
+   {
+    "description": "Lever arch files",
+    "qty": 5,
+    "unit_price": 38.9,
+    "line_total": 194.5
+   },
+   {
+    "description": "A4 copy paper, box of 5 reams",
+    "qty": 3,
+    "unit_price": 389.0,
+    "line_total": 1167.0
+   }
+  ],
+  "subtotal": 5108.5,
+  "vat_amount": 766.28,
+  "total": 5874.78,
+  "bank_name": "Protea Bank",
+  "bank_account_number": "949804382",
+  "branch_code": "689043"
+ },
+ "expected_exceptions": [
+  "no_purchase_order",
+  "unknown_supplier"
+ ],
+ "expected_route": "person"
+}

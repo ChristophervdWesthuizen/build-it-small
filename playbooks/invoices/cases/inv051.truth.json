@@ -1,0 +1,36 @@
+{
+ "id": "inv051",
+ "format": "pdf",
+ "template": 5,
+ "numfmt": "space_dot",
+ "datefmt": "iso",
+ "tags": [
+  "bank_changed"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Cederberg Compass Consulting",
+  "supplier_vat_number": "4970483265",
+  "invoice_number": "IN65723",
+  "invoice_date": "2026-11-17",
+  "po_number": "PO-2026-1050",
+  "lines": [
+   {
+    "description": "Consulting, per hour",
+    "qty": 3,
+    "unit_price": 1450.0,
+    "line_total": 4350.0
+   }
+  ],
+  "subtotal": 4350.0,
+  "vat_amount": 652.5,
+  "total": 5002.5,
+  "bank_name": "Ubuntu Savings Bank",
+  "bank_account_number": "542403774",
+  "branch_code": "585632"
+ },
+ "expected_exceptions": [
+  "bank_details_changed"
+ ],
+ "expected_route": "person"
+}

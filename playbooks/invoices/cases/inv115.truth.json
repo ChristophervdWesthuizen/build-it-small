@@ -1,0 +1,54 @@
+{
+ "id": "inv115",
+ "format": "pdf",
+ "template": 6,
+ "numfmt": "space_dot",
+ "datefmt": "short",
+ "tags": [
+  "bank_changed"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Two Rivers Byte Solutions",
+  "supplier_vat_number": "4695691444",
+  "invoice_number": "IN21939",
+  "invoice_date": "2026-11-20",
+  "po_number": "PO-2026-1114",
+  "lines": [
+   {
+    "description": "Microsoft 365 licence",
+    "qty": 5,
+    "unit_price": 285.0,
+    "line_total": 1425.0
+   },
+   {
+    "description": "Callout fee",
+    "qty": 1,
+    "unit_price": 650.0,
+    "line_total": 650.0
+   },
+   {
+    "description": "Network switch, 24 port",
+    "qty": 1,
+    "unit_price": 3899.0,
+    "line_total": 3899.0
+   },
+   {
+    "description": "Laptop support, monthly",
+    "qty": 2,
+    "unit_price": 4200.0,
+    "line_total": 8400.0
+   }
+  ],
+  "subtotal": 14374.0,
+  "vat_amount": 2156.1,
+  "total": 16530.1,
+  "bank_name": "Highveld Mutual Bank",
+  "bank_account_number": "06919146528",
+  "branch_code": "104995"
+ },
+ "expected_exceptions": [
+  "bank_details_changed"
+ ],
+ "expected_route": "person"
+}

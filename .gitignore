@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+playbooks/invoices/results/
+.DS_Store
+*.env

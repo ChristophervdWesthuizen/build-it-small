@@ -1,0 +1,32 @@
+{
+ "id": "inv032",
+ "format": "photo",
+ "template": 1,
+ "numfmt": "space_comma",
+ "datefmt": "iso",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Agulhas Pipe Plumbing CC",
+  "supplier_vat_number": "4025856575",
+  "invoice_number": "TI63280",
+  "invoice_date": "2026-10-01",
+  "po_number": "PO-2026-1031",
+  "lines": [
+   {
+    "description": "Geyser replacement 150L",
+    "qty": 1,
+    "unit_price": 7900.0,
+    "line_total": 7900.0
+   }
+  ],
+  "subtotal": 7900.0,
+  "vat_amount": 1185.0,
+  "total": 9085.0,
+  "bank_name": "Ubuntu Savings Bank",
+  "bank_account_number": "181878855",
+  "branch_code": "907705"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

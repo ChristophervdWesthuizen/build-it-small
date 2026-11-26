@@ -1,0 +1,44 @@
+{
+ "id": "inv065",
+ "format": "photo",
+ "template": 2,
+ "numfmt": "space_comma",
+ "datefmt": "short",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Karoo Quill Office Supply (Pty) Ltd",
+  "supplier_vat_number": "4709145341",
+  "invoice_number": "IN80565",
+  "invoice_date": "2026-10-18",
+  "po_number": "PO-2026-1064",
+  "lines": [
+   {
+    "description": "Desk organiser",
+    "qty": 50,
+    "unit_price": 219.0,
+    "line_total": 10950.0
+   },
+   {
+    "description": "Toner cartridge, black",
+    "qty": 1,
+    "unit_price": 1249.0,
+    "line_total": 1249.0
+   },
+   {
+    "description": "Lever arch files",
+    "qty": 6,
+    "unit_price": 38.9,
+    "line_total": 233.4
+   }
+  ],
+  "subtotal": 12432.4,
+  "vat_amount": 1864.86,
+  "total": 14297.26,
+  "bank_name": "Ubuntu Savings Bank",
+  "bank_account_number": "28966553719",
+  "branch_code": "861609"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

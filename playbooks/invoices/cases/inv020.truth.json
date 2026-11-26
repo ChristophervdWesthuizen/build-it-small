@@ -1,0 +1,42 @@
+{
+ "id": "inv020",
+ "format": "photo",
+ "template": 1,
+ "numfmt": "space_comma",
+ "datefmt": "iso",
+ "tags": [
+  "missing_vat_number"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Drakensberg Oak Furniture Co",
+  "supplier_vat_number": null,
+  "invoice_number": "IN59933",
+  "invoice_date": "2026-11-19",
+  "po_number": "PO-2026-1019",
+  "lines": [
+   {
+    "description": "Desk, 1600mm",
+    "qty": 1,
+    "unit_price": 4100.0,
+    "line_total": 4100.0
+   },
+   {
+    "description": "Office chair, ergonomic",
+    "qty": 1,
+    "unit_price": 3450.0,
+    "line_total": 3450.0
+   }
+  ],
+  "subtotal": 7550.0,
+  "vat_amount": 1132.5,
+  "total": 8682.5,
+  "bank_name": "Cape Commerce Bank",
+  "bank_account_number": "148877591",
+  "branch_code": "502779"
+ },
+ "expected_exceptions": [
+  "missing_vat_number"
+ ],
+ "expected_route": "person"
+}

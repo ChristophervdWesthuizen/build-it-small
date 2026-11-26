@@ -1,0 +1,242 @@
+[
+ {
+  "id": "S001",
+  "name": "Karoo Quill Office Supply (Pty) Ltd",
+  "category": "office",
+  "vat_number": "4709145341",
+  "address": "105 Station Street, Johannesburg",
+  "bank": {
+   "bank_name": "Ubuntu Savings Bank",
+   "account_number": "28966553719",
+   "branch_code": "861609"
+  }
+ },
+ {
+  "id": "S002",
+  "name": "Highveld Sparkle Cleaning CC",
+  "category": "cleaning",
+  "vat_number": "4159648540",
+  "address": "107 Station Street, Pretoria",
+  "bank": {
+   "bank_name": "Highveld Mutual Bank",
+   "account_number": "752223957",
+   "branch_code": "750680"
+  }
+ },
+ {
+  "id": "S003",
+  "name": "Bluegum and Pepper Catering (Pty) Ltd",
+  "category": "catering",
+  "vat_number": "4699761680",
+  "address": "127 Church Street, Gqeberha",
+  "bank": {
+   "bank_name": "Cape Commerce Bank",
+   "account_number": "90838816497",
+   "branch_code": "221606"
+  }
+ },
+ {
+  "id": "S004",
+  "name": "Two Rivers Byte Solutions",
+  "category": "it",
+  "vat_number": "4695691444",
+  "address": "46 Station Street, Bloemfontein",
+  "bank": {
+   "bank_name": "Ubuntu Savings Bank",
+   "account_number": "48992353898",
+   "branch_code": "325018"
+  }
+ },
+ {
+  "id": "S005",
+  "name": "Fynbos Ink Print and Signage",
+  "category": "print",
+  "vat_number": "4407275686",
+  "address": "71 Market Street, Pretoria",
+  "bank": {
+   "bank_name": "Ubuntu Savings Bank",
+   "account_number": "699085262",
+   "branch_code": "573063"
+  }
+ },
+ {
+  "id": "S006",
+  "name": "Mopane Line Logistics (Pty) Ltd",
+  "category": "logistics",
+  "vat_number": "4112490009",
+  "address": "118 Market Street, Pretoria",
+  "bank": {
+   "bank_name": "Highveld Mutual Bank",
+   "account_number": "02428382177",
+   "branch_code": "375109"
+  }
+ },
+ {
+  "id": "S007",
+  "name": "Sandstone Watch Security Services",
+  "category": "security",
+  "vat_number": "4400588408",
+  "address": "113 Station Street, Bloemfontein",
+  "bank": {
+   "bank_name": "Cape Commerce Bank",
+   "account_number": "1415672151",
+   "branch_code": "606689"
+  }
+ },
+ {
+  "id": "S008",
+  "name": "Waterberg Volt Electrical CC",
+  "category": "electrical",
+  "vat_number": "4900480728",
+  "address": "220 Voortrekker Street, Bloemfontein",
+  "bank": {
+   "bank_name": "Highveld Mutual Bank",
+   "account_number": "1372748382",
+   "branch_code": "414591"
+  }
+ },
+ {
+  "id": "S009",
+  "name": "Protea Paperworks Stationers",
+  "category": "office",
+  "vat_number": "4743859293",
+  "address": "78 Station Street, Johannesburg",
+  "bank": {
+   "bank_name": "Ubuntu Savings Bank",
+   "account_number": "847625936",
+   "branch_code": "995823"
+  }
+ },
+ {
+  "id": "S010",
+  "name": "Klipspringer Express Couriers",
+  "category": "logistics",
+  "vat_number": "4305575262",
+  "address": "14 Main Street, Polokwane",
+  "bank": {
+   "bank_name": "Highveld Mutual Bank",
+   "account_number": "0072917147",
+   "branch_code": "542347"
+  }
+ },
+ {
+  "id": "S011",
+  "name": "Baobab Fresh Hygiene Supplies",
+  "category": "cleaning",
+  "vat_number": "4221128730",
+  "address": "177 Voortrekker Street, Cape Town",
+  "bank": {
+   "bank_name": "Ubuntu Savings Bank",
+   "account_number": "15987992679",
+   "branch_code": "802695"
+  }
+ },
+ {
+  "id": "S012",
+  "name": "Umhlanga Keystone Facilities (Pty) Ltd",
+  "category": "facilities",
+  "vat_number": "4795701334",
+  "address": "179 Market Street, Cape Town",
+  "bank": {
+   "bank_name": "Ubuntu Savings Bank",
+   "account_number": "912040752",
+   "branch_code": "325718"
+  }
+ },
+ {
+  "id": "S013",
+  "name": "Drakensberg Oak Furniture Co",
+  "category": "furniture",
+  "vat_number": "4646340569",
+  "address": "220 Main Street, Durban",
+  "bank": {
+   "bank_name": "Cape Commerce Bank",
+   "account_number": "148877591",
+   "branch_code": "502779"
+  }
+ },
+ {
+  "id": "S014",
+  "name": "Kalahari Axle Fleet Services",
+  "category": "fleet",
+  "vat_number": "4208334721",
+  "address": "211 Voortrekker Street, Pretoria",
+  "bank": {
+   "bank_name": "Protea Bank",
+   "account_number": "178880895",
+   "branch_code": "394747"
+  }
+ },
+ {
+  "id": "S015",
+  "name": "Marula Stack Software (Pty) Ltd",
+  "category": "it",
+  "vat_number": "4572789562",
+  "address": "182 Industria Street, Gqeberha",
+  "bank": {
+   "bank_name": "Cape Commerce Bank",
+   "account_number": "261800989",
+   "branch_code": "675101"
+  }
+ },
+ {
+  "id": "S016",
+  "name": "Agulhas Pipe Plumbing CC",
+  "category": "facilities",
+  "vat_number": "4025856575",
+  "address": "68 Industria Street, Durban",
+  "bank": {
+   "bank_name": "Ubuntu Savings Bank",
+   "account_number": "181878855",
+   "branch_code": "907705"
+  }
+ },
+ {
+  "id": "S017",
+  "name": "Springbok Crate Packaging",
+  "category": "packaging",
+  "vat_number": "4304737761",
+  "address": "117 Church Street, Bloemfontein",
+  "bank": {
+   "bank_name": "Highveld Mutual Bank",
+   "account_number": "047145891",
+   "branch_code": "583593"
+  }
+ },
+ {
+  "id": "S018",
+  "name": "Lowveld Shield Pest Control",
+  "category": "cleaning",
+  "vat_number": "4243788695",
+  "address": "3 Industria Street, Bloemfontein",
+  "bank": {
+   "bank_name": "Highveld Mutual Bank",
+   "account_number": "54791264207",
+   "branch_code": "278734"
+  }
+ },
+ {
+  "id": "S019",
+  "name": "Cederberg Compass Consulting",
+  "category": "consulting",
+  "vat_number": "4970483265",
+  "address": "199 Market Street, Gqeberha",
+  "bank": {
+   "bank_name": "Highveld Mutual Bank",
+   "account_number": "618989885",
+   "branch_code": "211361"
+  }
+ },
+ {
+  "id": "S020",
+  "name": "Zebra Stripe Signs and Banners",
+  "category": "print",
+  "vat_number": "4896698800",
+  "address": "51 Church Street, Polokwane",
+  "bank": {
+   "bank_name": "Protea Bank",
+   "account_number": "4047573480",
+   "branch_code": "342474"
+  }
+ }
+]

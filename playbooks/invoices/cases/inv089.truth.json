@@ -1,0 +1,38 @@
+{
+ "id": "inv089",
+ "format": "pdf",
+ "template": 4,
+ "numfmt": "space_dot",
+ "datefmt": "iso",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Zebra Stripe Signs and Banners",
+  "supplier_vat_number": "4896698800",
+  "invoice_number": "57968",
+  "invoice_date": "2026-10-14",
+  "po_number": "PO-2026-1088",
+  "lines": [
+   {
+    "description": "Business cards, 500",
+    "qty": 1,
+    "unit_price": 420.0,
+    "line_total": 420.0
+   },
+   {
+    "description": "Pull up banner",
+    "qty": 1,
+    "unit_price": 1150.0,
+    "line_total": 1150.0
+   }
+  ],
+  "subtotal": 1570.0,
+  "vat_amount": 235.5,
+  "total": 1805.5,
+  "bank_name": "Protea Bank",
+  "bank_account_number": "4047573480",
+  "branch_code": "342474"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

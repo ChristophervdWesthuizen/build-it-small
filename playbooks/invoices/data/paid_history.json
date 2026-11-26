@@ -1,0 +1,152 @@
+[
+ {
+  "supplier_id": "S017",
+  "invoice_number": "INV80257",
+  "total": 37668.26
+ },
+ {
+  "supplier_id": "S015",
+  "invoice_number": "INV82033",
+  "total": 12043.33
+ },
+ {
+  "supplier_id": "S006",
+  "invoice_number": "IN61620",
+  "total": 30547.93
+ },
+ {
+  "supplier_id": "S002",
+  "invoice_number": "INV73935",
+  "total": 22957.84
+ },
+ {
+  "supplier_id": "S002",
+  "invoice_number": "TI76652",
+  "total": 10862.4
+ },
+ {
+  "supplier_id": "S009",
+  "invoice_number": "INV99006",
+  "total": 15783.1
+ },
+ {
+  "supplier_id": "S020",
+  "invoice_number": "INV63565",
+  "total": 16776.39
+ },
+ {
+  "supplier_id": "S008",
+  "invoice_number": "TI98072",
+  "total": 970.21
+ },
+ {
+  "supplier_id": "S002",
+  "invoice_number": "TI32679",
+  "total": 27823.8
+ },
+ {
+  "supplier_id": "S005",
+  "invoice_number": "1793",
+  "total": 27212.99
+ },
+ {
+  "supplier_id": "S001",
+  "invoice_number": "INV94860",
+  "total": 14209.78
+ },
+ {
+  "supplier_id": "S016",
+  "invoice_number": "TI62426",
+  "total": 28953.75
+ },
+ {
+  "supplier_id": "S010",
+  "invoice_number": "37199",
+  "total": 21743.11
+ },
+ {
+  "supplier_id": "S013",
+  "invoice_number": "IN90377",
+  "total": 33590.56
+ },
+ {
+  "supplier_id": "S001",
+  "invoice_number": "39263",
+  "total": 15232.28
+ },
+ {
+  "supplier_id": "S012",
+  "invoice_number": "INV68928",
+  "total": 27863.53
+ },
+ {
+  "supplier_id": "S006",
+  "invoice_number": "IN18026",
+  "total": 3667.67
+ },
+ {
+  "supplier_id": "S020",
+  "invoice_number": "IN7091",
+  "total": 24884.42
+ },
+ {
+  "supplier_id": "S005",
+  "invoice_number": "INV96906",
+  "total": 22296.87
+ },
+ {
+  "supplier_id": "S020",
+  "invoice_number": "83904",
+  "total": 34451.95
+ },
+ {
+  "supplier_id": "S001",
+  "invoice_number": "INV4384",
+  "total": 8771.55
+ },
+ {
+  "supplier_id": "S018",
+  "invoice_number": "INV73673",
+  "total": 27516.88
+ },
+ {
+  "supplier_id": "S007",
+  "invoice_number": "INV99943",
+  "total": 5333.66
+ },
+ {
+  "supplier_id": "S007",
+  "invoice_number": "INV97289",
+  "total": 4235.17
+ },
+ {
+  "supplier_id": "S004",
+  "invoice_number": "34352",
+  "total": 5182.2
+ },
+ {
+  "supplier_id": "S007",
+  "invoice_number": "IN36415",
+  "total": 24233.85
+ },
+ {
+  "supplier_id": "S017",
+  "invoice_number": "IN55901",
+  "total": 9916.86
+ },
+ {
+  "supplier_id": "S014",
+  "invoice_number": "TI33448",
+  "total": 6465.3
+ },
+ {
+  "supplier_id": "S003",
+  "invoice_number": "INV22487",
+  "total": 7292.45
+ },
+ {
+  "supplier_id": "S018",
+  "invoice_number": "16132",
+  "total": 13527.12
+ }
+]

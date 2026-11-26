@@ -1,0 +1,38 @@
+{
+ "id": "inv125",
+ "format": "pdf",
+ "template": 6,
+ "numfmt": "comma_dot",
+ "datefmt": "iso",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Kalahari Axle Fleet Services",
+  "supplier_vat_number": "4208334721",
+  "invoice_number": "33515",
+  "invoice_date": "2026-10-14",
+  "po_number": "PO-2026-1124",
+  "lines": [
+   {
+    "description": "Wheel alignment",
+    "qty": 2,
+    "unit_price": 450.0,
+    "line_total": 900.0
+   },
+   {
+    "description": "Vehicle service, minor",
+    "qty": 1,
+    "unit_price": 2950.0,
+    "line_total": 2950.0
+   }
+  ],
+  "subtotal": 3850.0,
+  "vat_amount": 577.5,
+  "total": 4427.5,
+  "bank_name": "Protea Bank",
+  "bank_account_number": "178880895",
+  "branch_code": "394747"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

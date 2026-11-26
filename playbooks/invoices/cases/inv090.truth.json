@@ -1,0 +1,48 @@
+{
+ "id": "inv090",
+ "format": "photo",
+ "template": 4,
+ "numfmt": "space_dot",
+ "datefmt": "short",
+ "tags": [
+  "duplicate"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Waterberg Volt Electrical CC",
+  "supplier_vat_number": "4900480728",
+  "invoice_number": "TI98072",
+  "invoice_date": "2026-10-06",
+  "po_number": "PO-2026-1089",
+  "lines": [
+   {
+    "description": "Cable, 100m roll",
+    "qty": 3,
+    "unit_price": 1290.0,
+    "line_total": 3870.0
+   },
+   {
+    "description": "Distribution board inspection",
+    "qty": 3,
+    "unit_price": 1850.0,
+    "line_total": 5550.0
+   },
+   {
+    "description": "LED panel light",
+    "qty": 3,
+    "unit_price": 465.0,
+    "line_total": 1395.0
+   }
+  ],
+  "subtotal": 10815.0,
+  "vat_amount": 1622.25,
+  "total": 12437.25,
+  "bank_name": "Highveld Mutual Bank",
+  "bank_account_number": "1372748382",
+  "branch_code": "414591"
+ },
+ "expected_exceptions": [
+  "duplicate"
+ ],
+ "expected_route": "person"
+}

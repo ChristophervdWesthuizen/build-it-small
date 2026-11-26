@@ -1,0 +1,42 @@
+{
+ "id": "inv074",
+ "format": "pdf",
+ "template": 4,
+ "numfmt": "comma_dot",
+ "datefmt": "dmy_slash",
+ "tags": [
+  "duplicate"
+ ],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Mopane Line Logistics (Pty) Ltd",
+  "supplier_vat_number": "4112490009",
+  "invoice_number": "IN61620",
+  "invoice_date": "2026-11-01",
+  "po_number": "PO-2026-1073",
+  "lines": [
+   {
+    "description": "Fuel surcharge",
+    "qty": 12,
+    "unit_price": 120.0,
+    "line_total": 1440.0
+   },
+   {
+    "description": "Same day delivery, Gauteng",
+    "qty": 50,
+    "unit_price": 380.0,
+    "line_total": 19000.0
+   }
+  ],
+  "subtotal": 20440.0,
+  "vat_amount": 3066.0,
+  "total": 23506.0,
+  "bank_name": "Highveld Mutual Bank",
+  "bank_account_number": "02428382177",
+  "branch_code": "375109"
+ },
+ "expected_exceptions": [
+  "duplicate"
+ ],
+ "expected_route": "person"
+}

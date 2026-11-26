@@ -1,0 +1,32 @@
+{
+ "id": "inv104",
+ "format": "scan",
+ "template": 5,
+ "numfmt": "space_comma",
+ "datefmt": "short",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Protea Paperworks Stationers",
+  "supplier_vat_number": "4743859293",
+  "invoice_number": "TI95374",
+  "invoice_date": "2026-11-15",
+  "po_number": "PO-2026-1103",
+  "lines": [
+   {
+    "description": "Lever arch files",
+    "qty": 4,
+    "unit_price": 38.9,
+    "line_total": 155.6
+   }
+  ],
+  "subtotal": 155.6,
+  "vat_amount": 23.34,
+  "total": 178.94,
+  "bank_name": "Ubuntu Savings Bank",
+  "bank_account_number": "847625936",
+  "branch_code": "995823"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

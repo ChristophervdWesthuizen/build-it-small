@@ -1,0 +1,38 @@
+{
+ "id": "inv077",
+ "format": "pdf",
+ "template": 2,
+ "numfmt": "space_dot",
+ "datefmt": "long",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Mopane Line Logistics (Pty) Ltd",
+  "supplier_vat_number": "4112490009",
+  "invoice_number": "21699",
+  "invoice_date": "2026-10-24",
+  "po_number": "PO-2026-1076",
+  "lines": [
+   {
+    "description": "Overnight courier, national",
+    "qty": 24,
+    "unit_price": 245.0,
+    "line_total": 5880.0
+   },
+   {
+    "description": "Fuel surcharge",
+    "qty": 6,
+    "unit_price": 120.0,
+    "line_total": 720.0
+   }
+  ],
+  "subtotal": 6600.0,
+  "vat_amount": 990.0,
+  "total": 7590.0,
+  "bank_name": "Highveld Mutual Bank",
+  "bank_account_number": "02428382177",
+  "branch_code": "375109"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}

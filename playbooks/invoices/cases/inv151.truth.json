@@ -1,0 +1,44 @@
+{
+ "id": "inv151",
+ "format": "pdf",
+ "template": 1,
+ "numfmt": "space_comma",
+ "datefmt": "iso",
+ "tags": [],
+ "printed": {
+  "doc_type": "invoice",
+  "supplier_name": "Bluegum and Pepper Catering (Pty) Ltd",
+  "supplier_vat_number": "4699761680",
+  "invoice_number": "TI76467",
+  "invoice_date": "2026-11-10",
+  "po_number": "PO-2026-1150",
+  "lines": [
+   {
+    "description": "Coffee and tea service",
+    "qty": 3,
+    "unit_price": 640.0,
+    "line_total": 1920.0
+   },
+   {
+    "description": "Staff lunch platter (20 pax)",
+    "qty": 1,
+    "unit_price": 2850.0,
+    "line_total": 2850.0
+   },
+   {
+    "description": "Bottled water, case of 24",
+    "qty": 5,
+    "unit_price": 132.0,
+    "line_total": 660.0
+   }
+  ],
+  "subtotal": 5430.0,
+  "vat_amount": 814.5,
+  "total": 6244.5,
+  "bank_name": "Cape Commerce Bank",
+  "bank_account_number": "90838816497",
+  "branch_code": "221606"
+ },
+ "expected_exceptions": [],
+ "expected_route": "auto"
+}
